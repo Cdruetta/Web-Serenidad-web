@@ -1,0 +1,61 @@
+/* Estilo general para la sección */
+.benefits-section {
+  background-color: #f8f8f8;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Contenedor de los beneficios */
+.benefits-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Estilo para cada beneficio */
+.benefit {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.benefit:hover {
+  transform: translateY(-10px);
+}
+
+/* Iconos */
+.benefit-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+/* Títulos de cada beneficio */
+.benefit-title {
+  font-size: 1.5em;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Descripción */
+.benefit-description {
+  font-size: 1em;
+  color: #777;
+  line-height: 1.6;
+}
+
+/* Título principal */
+.home-title {
+  text-align: center;
+}
