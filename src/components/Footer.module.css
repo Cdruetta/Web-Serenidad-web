@@ -1,30 +1,66 @@
 .bgFooter {
-    background-color: #10100e;
-    height: 400px;
-    color: 'white'
-}
-.bgTitle {
-    color: rgb(255, 199, 247 ) ;
-    font-size: 20px;
-}
-.bgSubtitle {
-    color: rgb(255, 215, 170);
-    font-size: 18px;
-}
-.followConteiner {
-   display:flex;
-   justify-content: center;
-   align-items: center;
-   padding: 15px
-}
-.followContact {
-    padding: 10px;
-    margin-top: 10px;
-   text-align: center;
-}
-.finally {
-    color: white;
-    font-size: 13px;
-    text-align: center;
+  background-color: #10100e;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
 }
 
+.bgTitle {
+  color: rgb(255, 199, 247);
+  font-size: 16px;
+  margin-bottom: 10px; /* Espaciado entre el título y los iconos */
+}
+
+.bgSubtitle {
+  color: rgb(255, 215, 170);
+  font-size: 14px;
+  text-align: center;
+}
+
+.followConteiner {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Espacio entre los iconos */
+  align-items: center;
+  padding: 10px;
+}
+
+.followContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Espacio entre los iconos y el texto */
+  text-align: center;
+  margin-top: 10px; /* Añadir espacio superior */
+}
+
+.finally {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px; /* Espaciado inferior */
+}
+
+.containerWithLines {
+  border-top: 2px solid #fff; /* Línea superior */
+  border-bottom: 2px solid #fff; /* Línea inferior */
+  padding: 20px 0;
+}
+
+.followConteiner a,
+.followContact a {
+  text-decoration: none; /* Eliminar subrayado de los enlaces */
+  color: inherit; /* Mantener el color de los íconos */
+}
+
+@media (max-width: 768px) {
+  .followConteiner {
+    flex-direction: column;
+  }
+
+  .followContact {
+    flex-direction: column;
+  }
+}

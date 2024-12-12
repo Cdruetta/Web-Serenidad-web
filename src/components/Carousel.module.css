@@ -1,11 +1,18 @@
-.bgCarousel {
-  background-image: url("../images/fondosImages/fondoBlack.jpg");
-  background-size: cover;
+.carouselContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.imgFluid {
-  width: 50%;
-  height: 100%;
-  object-fit: cover; /* Asegura que la imagen cubra el espacio de la columna */
-  max-height: 500px; /* Ajusta la altura máxima según lo necesites */
+.carouselImage {
+  width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+  max-height: 400px; /* Establece una altura máxima */
+  object-fit: cover; /* Recorta la imagen manteniendo las proporciones */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.carouselImage:hover {
+  transform: scale(1.1); /* Agranda la imagen al pasar el cursor */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Agrega sombra para el efecto */
 }
