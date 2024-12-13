@@ -4,7 +4,7 @@ import imagen1 from '../images/fondosImages/tibetanos.jpg';
 import imagen2 from '../images/fondosImages/palo_santo.jpg';
 import imagen3 from '../images/fondosImages/magicos.jpg';
 import imagen4 from '../images/fondosImages/conitos.jpg';
-import styles from './Carousel.module.css';
+import styles from '../styles/Carousel.module.css';
 
 function MyCarousel() {
   return (

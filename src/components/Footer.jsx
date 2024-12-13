@@ -7,8 +7,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import BgHeader from "./Header.module.css";
-import bgFooter from './Footer.module.css';
+import BgHeader from "../styles/Header.module.css";
+import bgFooter from '../styles/Footer.module.css';
 
 const iconsStyles = { color: 'white', fontSize: '50px', padding: '8px' };
 

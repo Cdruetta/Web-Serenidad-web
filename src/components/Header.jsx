@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import BgHeader from "./Header.module.css";
+import BgHeader from "../styles/Header.module.css";
 
 import { PiShoppingCartSimpleFill } from "react-icons/pi";
 import { useCart } from '../contexts/CartContexts'; // Importa tu contexto

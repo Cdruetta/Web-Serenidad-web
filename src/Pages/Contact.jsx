@@ -4,7 +4,7 @@ import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
 
-import contact from '../components/Contact.module.css'
+import contact from '../styles/Contact.module.css'
 
 import { FaInstagram, FaFacebook, FaWhatsapp } from 'react-icons/fa'
 

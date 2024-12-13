@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 import App from './App.jsx'
 
-import './index.css'
+import "./styles/index.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { CartProvider } from './contexts/CartContexts.jsx'
 
